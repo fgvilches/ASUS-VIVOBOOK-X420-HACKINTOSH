@@ -9,6 +9,12 @@ Run macOS on your Asus X420
 
 **Works fine on Mojave / Catalina** 
 
+<div align="left">
+  <br>
+  <img src="Img/Mojave_about.png" alt="My mac" width="15%">
+  <br>
+</div>
+
 ## Contents
 
 - [Configuration](#configuration)
@@ -67,7 +73,10 @@ Run macOS on your Asus X420
 ## Installation
 
 ### First-time installation
-- I recommend installing using a pre-made Oralira dmg (links), after installing replace update clover bootloader and replace the EFI folder with one of the [releases](https://github.com/fgvilches/ASUS-VIVOBOOK-X420-HACKINTOSH/releases) page.
+- I recommend installing using a pre-made [Oralira dmg](https://www.olarila.com/forum/83-olarila-pre-made-iso-recommended/), after install update clover bootloader and replace the EFI folder with one of mine [releases](https://github.com/fgvilches/ASUS-VIVOBOOK-X420-HACKINTOSH/releases).
+
+- If the trackpad doesn't work during the installation, please plug a wired mouse or a wireless mouse projector before the installation. After the installation completes, open Terminal.app and run sudo kextcache -i /. Wait for the process ending and restart the device. Enjoy your trackpad!
+
 
 
 
