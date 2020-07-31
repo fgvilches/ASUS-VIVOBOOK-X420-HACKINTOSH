@@ -56,7 +56,7 @@ Run macOS on your Asus X420
 
 
 ### Clover
-- Support macOS10.13 ~ macOS10.15.6, **Currently working on Big Sur Support+**
+- Support macOS10.13 ~ macOS10.15.6, **Currently working on Big Sur Support**
 - Should Clean NVRAM after using OpenCore
   - Press `Fn+F11` in Clover boot page
 
@@ -67,7 +67,7 @@ Run macOS on your Asus X420
 ## Installation
 
 ### First-time installation
-- I recommend installing using a pre-made Oralira dmg (links), after installing replace update clover bootloader and replace the EFI folder with one of the [releases](https://github.com/daliansky/XiaoMi-Pro-Hackintosh/releases) page.
+- I recommend installing using a pre-made Oralira dmg (links), after installing replace update clover bootloader and replace the EFI folder with one of the [releases](https://github.com/fgvilches/ASUS-VIVOBOOK-X420-HACKINTOSH/releases) page.
 
 
 
