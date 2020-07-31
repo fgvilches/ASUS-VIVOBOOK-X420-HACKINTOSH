@@ -11,7 +11,37 @@ Run macOS on your Asus X420
 
 <div align="left">
   <br>
-  <img src="Img/Mojave_about.png" alt="My mac" width="15%">
+  <img src="Img/Mojave_about.png" alt="My mac" width="100%">
+  <br>
+</div>
+
+<div align="left">
+  <br>
+  <img src="Img/Mojave_screen.png" alt="Screen" width="100%">
+  <br>
+</div>
+
+<div align="left">
+  <br>
+  <img src="Img/Mojave_smc.png" alt="smc" width="40%">
+  <br>
+</div>
+
+<div align="left">
+  <br>
+  <img src="Img/Mojave_wifi.png" alt="wifi" width="40%">
+  <br>
+</div>
+
+<div align="left">
+  <br>
+  <img src="Img/Mojave_bluetooth.png" alt="bluetooth" width="50%">
+  <br>
+</div>
+
+<div align="left">
+  <br>
+  <img src="Img/Mojave_airdrop.png" alt="airdrop" width="50%">
   <br>
 </div>
 
@@ -23,14 +53,14 @@ Run macOS on your Asus X420
   - [OpenCore](#opencore)
 - [Installation](#installation)
   - [First-time installation](#first-time-installation)
-  - [Build](#build)
-  - [Upgrade](#upgrade)
 - [Improvements](#improvements)
 - [FAQ](#faq)
 - [Changelog](#changelog)
 - [A reward](#a-reward)
 - [Credits](#credits)
 - [Support and discussion](#support-and-discussion)
+
+## Configuration
 
 | Specifications      | Detail                                     |
 | ------------------- | -------------------------------------------|
@@ -76,6 +106,28 @@ Run macOS on your Asus X420
 - I recommend installing using a pre-made [Oralira dmg](https://www.olarila.com/forum/83-olarila-pre-made-iso-recommended/), after install update clover bootloader and replace the EFI folder with one of mine [releases](https://github.com/fgvilches/ASUS-VIVOBOOK-X420-HACKINTOSH/releases).
 
 - If the trackpad doesn't work during the installation, please plug a wired mouse or a wireless mouse projector before the installation. After the installation completes, open Terminal.app and run sudo kextcache -i /. Wait for the process ending and restart the device. Enjoy your trackpad!
+
+#### DW1820a-Fix
+- To get fully working the DW1820a on Mojave/Catalina you need to tape out some pins with masking like, if you don't do this, you are gonna get your pc stuck after 20 mins by cpu overload (caused by airportd process)
+  - Tape diagram:
+    <div align="left">
+      <br>
+      <img src="Img/tapeout.jpg" alt="tapeout" width="50%">
+      <br>
+    </div>
+  - You also need to use my config.plist, because has the mods in devices tab to get this working.
+  - Done, you have an Airdrop/HandOff capable Wifi/Bluetooth card, detected as an Airport Extreme.
+  
+- Remember fix your the SMBIOS on Clover configurator (Generate a valid serial number an board), because I deleted my SerialNumber an Board for obvious reasons.
+  - With that you get Facetime/iMessage Working.
+  
+## Improvements
+- Use [ALCPlugFix](ALCPlugFix) to fix unworking jack after replug
+- Use [itlwm](https://github.com/OpenIntelWireless/itlwm) and [HeliPort](https://github.com/OpenIntelWireless/HeliPort) if you are gonna use the Intel Wi-Fi card, the tutorial is [here](https://github.com/fgvilches/ASUS-VIVOBOOK-X420-HACKINTOSH/blob/master/Docs/Drive-Native-Intel-Wireless-Card.pdf)
+- Use my DW1820a [fix](DW1820a-Fix) if you are gonna use that card.
+
+
+  
 
 
 
