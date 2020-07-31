@@ -1,5 +1,4 @@
-![Twitter Follow](https://img.shields.io/twitter/follow/fgvilches?style=social)
-
+![Twitter Follow](https://img.shields.io/twitter/follow/fgvilches?style=social) 
 ![GitHub followers](https://img.shields.io/github/followers/fgvilches?style=social)
 
 # ASUS VIVOBOOK X420 HACKINTOSH
@@ -103,12 +102,12 @@ Run macOS on your Asus X420
 ## Installation
 
 ### First-time installation
-- I recommend installing using a pre-made [Oralira dmg](https://www.olarila.com/forum/83-olarila-pre-made-iso-recommended/), after install update clover bootloader and replace the EFI folder with one of mine [releases](https://github.com/fgvilches/ASUS-VIVOBOOK-X420-HACKINTOSH/releases).
+- I recommend installing using a pre-made [Olarila dmg](https://www.olarila.com/forum/83-olarila-pre-made-iso-recommended/), after install update clover bootloader and replace the EFI folder with one of mine [releases](https://github.com/fgvilches/ASUS-VIVOBOOK-X420-HACKINTOSH/releases).
 
-- If the trackpad doesn't work during the installation, please plug a wired mouse or a wireless mouse projector before the installation. After the installation completes, open Terminal.app and run sudo kextcache -i /. Wait for the process ending and restart the device. Enjoy your trackpad!
+- If the trackpad doesn't work during the installation, please plug a wired mouse or a wireless mouse before the installation. After the installation completes, open Terminal.app and run sudo kextcache -i /. Wait for the process ending and restart the device. Enjoy your trackpad!
 
 #### DW1820a-Fix
-- To get fully working the DW1820a on Mojave/Catalina you need to tape out some pins with masking like, if you don't do this, you are gonna get your pc stuck after 20 mins by cpu overload (caused by airportd process)
+- To get fully working the DW1820a on Mojave/Catalina you need to tape out some pins with masking tape, if you don't do this, you are gonna get your pc stuck after 20 mins by cpu overload (caused by airportd process)
   - Tape diagram:
     <div align="left">
       <br>
