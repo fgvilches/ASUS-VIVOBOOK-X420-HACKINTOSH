@@ -123,7 +123,7 @@ Run macOS on your Asus X420
 ## Improvements
 - Use [ALCPlugFix](ALCPlugFix) to fix unworking jack after replug
 - Use [itlwm](https://github.com/OpenIntelWireless/itlwm) and [HeliPort](https://github.com/OpenIntelWireless/HeliPort) if you are gonna use the Intel Wi-Fi card, the tutorial is [here](https://github.com/fgvilches/ASUS-VIVOBOOK-X420-HACKINTOSH/blob/master/Docs/Drive-Native-Intel-Wireless-Card.pdf)
-- Use my DW1820a [fix](DW1820a-Fix) if you are gonna use that card.
+- Use my DW1820a [fix](https://github.com/fgvilches/ASUS-VIVOBOOK-X420-HACKINTOSH#DW1820a-Fix) if you are gonna use that card.
 
 
   
