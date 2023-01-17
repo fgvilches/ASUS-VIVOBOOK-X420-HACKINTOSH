@@ -128,13 +128,13 @@ Run macOS on your Asus X420
 
   
 
-
+---
 
 Si este proyecto te ha sido util, considera donarme! 
  
 <div align="left">
   <br>
-  <img src="https://github.com/fgvilches/Terrae-Reborn/github-files/giphy.gif" alt="diagrama de arq" width="20%">
+  <img src="https://github.com/fgvilches/Terrae-Reborn/blob/main/github-files/giphy.gif" alt="diagrama de arq" width="20%">
   <br>
 </div>
  
